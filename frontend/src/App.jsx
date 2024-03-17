@@ -4,6 +4,7 @@ import Register from "./components/Register";
 
 import Header from "./components/Header";
 import { UserContext } from "./context/UserContext";
+import Table from "./components/Table";
 import Login from "./components/Login";
 
 
@@ -50,7 +51,7 @@ const App = ()=> {
             <Register /> <Login />
           </div>
         ) : (
-          <p>Table</p>
+          <Table />
         )
       }
     </div>
